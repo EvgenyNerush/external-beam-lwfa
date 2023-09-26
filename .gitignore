@@ -12,3 +12,8 @@ pom.xml.asc
 .lein-failures
 .nrepl-port
 .cpcache/
+src/.calva/
+.lsp/
+.clj-kondo/
+.clerk/
+src/plotly_example.json
