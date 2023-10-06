@@ -88,7 +88,7 @@
 ;; ## The main namespace is below
 ;; --------------------------------------------------------
 
-(ns notebook
+(ns notebook1
   (:require [nextjournal.clerk.viewer :as v]
             [clojure.java.io :as io]
             [clojure.string :as string]
@@ -130,7 +130,7 @@
 
 ;; ### Time to plot something
 
-(def res-raw (read-data "res.txt"))
+(def res-raw (read-data "res1.txt"))
 
 (defn get-column-data
   "Get data from column `key` of dataset `dset`"
